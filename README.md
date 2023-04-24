@@ -9,4 +9,4 @@ AccountScreen: creates a user profile based on the user information that is stor
 UserBio: Allows the user to add and edit a bio on their profile.
 toggleShowCompleted: A toggle button for the user to filter tasks based on completion.
 
-View the app on GitHub pages:
+View the app on GitHub pages
