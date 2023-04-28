@@ -1,7 +1,7 @@
 {
   "name": "todoapp",
   "version": "1.0.0",
-  "homepage": "http://Lillybliss.github.io/Todo-App",
+  "homepage": "http://Lillybliss.github.io/Todo-App/",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",

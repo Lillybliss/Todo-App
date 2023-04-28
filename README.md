@@ -1,12 +1,17 @@
 # Todo-App
 
-This project is a React Native mobile application that allows users to create a user profile for the to-do list application. The app includes features such as updating a user bio, creating and deleting tasks, and registering profiles using local storage.
+Todo-App
+Todo-App is a React Native application for managing tasks and to-do lists. It allows users to create and delete tasks, as well as filter tasks based on completion. The app also allows users to register an account, storing their login data on local storage, and creating a user profile based on their information.
 
-The components implemented in this project include:
+Features
+Create and delete tasks
+Filter tasks by completion
+Account registration & login
+User profile
 
-RegistrationScreen: form validation is used to create a user profile and save the login information on local storage. This information can then be used in the Login screen.
-AccountScreen: creates a user profile based on the user information that is stored in local storage & passed to different components through navigation parameters.
-UserBio: Allows the user to add and edit a bio on their profile.
-toggleShowCompleted: A toggle button for the user to filter tasks based on completion.
+My Contributions
+As the main contributor to this project, I set up the structure of the application through multiple stack navigators/screens. I implemented every screen along with the form validation for the user login/registration screens. I wrote the code that stores the personal information to local storage, then passes the information to their user profile through navigation parameters.
+For the to-do list, I wrote the code that allows users to add tasks and delete tasks.
+Specifically, I wrote the code for searching through the list of tasks based on completion and displaying the filtered results. Additionally, I helped with testing and debugging the app to ensure it was functioning correctly.
 
-View the app on GitHub pages:
+View the app on GitHub pages: https://lillybliss.github.io/Todo-App/

@@ -10,12 +10,9 @@ import AccountScreen from "./AccountScreen";
 const Stack = createNativeStackNavigator();
 const BottomTab = createBottomTabNavigator();
 
-const TodoListStack = ({route}) => {
-  const {email, firstName, lastName,
-        password,
-        phone,
-        username,
-        zip} = route.params
+const TodoListStack = ({ route }) => {
+  const { email, firstName, lastName, password, phone, username, zip } =
+    route.params;
 
   return (
     <BottomTab.Navigator>

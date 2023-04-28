@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/Todo-App/static/js/main.0200a24a.js",
+    "main.js": "/Todo-App/static/js/main.5007ed27.js",
     "static/js/568.1a47f8d2.js": "/Todo-App/static/js/568.1a47f8d2.js",
     "static/media/FontAwesome.ttf": "/Todo-App/static/media/FontAwesome.1e59d2330b4c6deb84b3.ttf",
     "favicon.ico": "/Todo-App/favicon.ico",
@@ -13,11 +13,11 @@
     "favicon-16.png": "/Todo-App/favicon-16.png",
     "serve.json": "/Todo-App/serve.json",
     "manifest.json": "/Todo-App/manifest.json",
-    "main.0200a24a.js.map": "/Todo-App/static/js/main.0200a24a.js.map",
+    "main.5007ed27.js.map": "/Todo-App/static/js/main.5007ed27.js.map",
     "568.1a47f8d2.js.map": "/Todo-App/static/js/568.1a47f8d2.js.map"
   },
   "entrypoints": [
     "static/js/568.1a47f8d2.js",
-    "static/js/main.0200a24a.js"
+    "static/js/main.5007ed27.js"
   ]
 }

@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
   },
 });
 
-const RegScreen = () => {
+const RegScreen = ({ navigation }) => {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [username, setUsername] = useState("");
@@ -78,7 +78,7 @@ const RegScreen = () => {
     console.log(
       `Registration successful. username: ${username} password: ${password} first name: ${firstName} last name: ${lastName} email: ${email} phone: ${phone} zip: ${zip}`
     );
-    navigation.navigate("Login", { screen: "Login" });
+    navigation.pop();
   };
 
   return (

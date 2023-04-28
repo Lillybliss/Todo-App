@@ -84,7 +84,7 @@ const LoginScreen = ({ navigation }) => {
           style={styles.button}
           title="Register"
           testID="login-register"
-          onPress={() => navigation.navigate("Registration")}
+          onPress={() => navigation.push("Registration")}
         />
       </View>
     </View>
